@@ -1,0 +1,195 @@
+
+/* Général */
+
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap);
+
+* {
+    font-family: "League Spartan";
+}
+
+/* Première Page */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* En tête */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header .logo img {
+    height: 120px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav a {
+    color: rgb(0, 0, 0);
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+header .join-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+/* Bannière Présentation */
+
+.banner {
+    background-image: url(../images/etablissement.png);
+    color: white;
+    text-align: right;
+    font-size: 50px;
+    padding: 160px 20px;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Programme Présentation */
+
+.container { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: #fff; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin: 20px auto; 
+    max-width: 1200px;
+}
+
+.programme-image {
+    max-width: 150px; 
+    margin-right: 20px;
+    align-items: left;
+}
+
+.text-block { 
+    margin: 0 10px; 
+} 
+
+.text-block h2 { 
+    margin: 5px 0; 
+    font-size: 1.5em; 
+    color: #000; 
+} 
+
+.button-container { 
+    margin-top: 20px; 
+} 
+
+.button-container a { 
+    display: inline-block; 
+    padding: 10px 20px; 
+    background-color: #e60000; 
+    color: #fff; 
+    text-decoration: none; 
+    border-radius: 5px; 
+}
+
+/* Encadré de présentation */
+
+.elements { 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    padding: 20px; 
+} 
+
+.element { 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    padding: 20px; 
+    margin: 10px; 
+    width: 45%; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+} 
+
+.element img { 
+    display: block; 
+    margin: 0 auto 10px; 
+    height: 100px;
+} 
+
+.element h2 { 
+    font-size: 1.5em; 
+    margin-bottom: 10px; 
+} 
+
+.element p { 
+    font-size: 1em; 
+    line-height: 1.5; 
+}
+
+footer {
+    background-color: #1a203a;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+/* Page "Organisation" */
+
+.banner-organisation {
+    background-image: url(../images/discours.png);
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding: 160px 20px;
+}
+
+
+
+/* Page "Programme" */
+
+.banner-programme {
+    background-image: url(../images/jury.png);
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding: 160px 20px;
+}
+
+
+
+/* Page "Projet" */
+
+.banner-projet {
+    background-image: url(../images/contrat.png);
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding: 160px 20px;
+}
